@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="brand">YourName</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <h1>Hi, I'm <span class="accent">Your Name</span></h1>
+    <p>Junior Cloud & DevOps enthusiast. I build cloud-native apps and deploy them reliably.</p>
+    <a class="btn" href="#projects">View My Projects</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I'm learning cloud computing and DevOps through hands-on projects. 
+       Currently exploring AWS, Docker, and CI/CD pipelines.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="cards">
+    <h2>Projects</h2>
+    <div class="card-grid">
+      <article class="card">
+        <i class="fa-brands fa-aws fa-2x"></i>
+        <h3>Static Portfolio on S3</h3>
+        <p>Hosted this portfolio on AWS S3 with CloudFront CDN and HTTPS.</p>
+        <span class="tag">HTML</span><span class="tag">S3</span><span class="tag">CloudFront</span>
+      </article>
+      <article class="card">
+        <i class="fa-brands fa-docker fa-2x"></i>
+        <h3>Dockerized Node App</h3>
+        <p>Containerized a Node.js REST API using Docker and Docker Compose.</p>
+        <span class="tag">Docker</span><span class="tag">Node.js</span><span class="tag">CI</span>
+      </article>
+      <article class="card">
+        <i class="fa-solid fa-server fa-2x"></i>
+        <h3>Terraform IaC Demo</h3>
+        <p>Provisioned AWS EC2 and S3 resources using Terraform scripts.</p>
+        <span class="tag">Terraform</span><span class="tag">AWS</span><span class="tag">IaC</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact">
+    <p><i class="fa-solid fa-envelope"></i> 
+       <a href="mailto:you@example.com">you@example.com</a>
+    </p>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+
+</body>
+</html>
